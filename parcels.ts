@@ -42,10 +42,10 @@ const _parcels: Parcel[] = [
   },
   {
     type: ParcelType.Library,
-    name: '@rain-cafe/refreshly',
+    name: '@refreshly/core',
     description: 'Simply a key rotation tool!~',
     repo: 'github:rain-cafe/refreshly',
-    parcel: 'npm:@rain-cafe/refreshly',
+    parcel: 'npm:@refreshly/core',
     status: Status.COMPLETED,
   },
   {
