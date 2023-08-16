@@ -23,6 +23,15 @@ const _parcels: Parcel[] = [
     status: Status.IN_DEVELOPMENT,
   },
   {
+    type: ParcelType.App,
+    name: 'Zelda Map Tracker',
+    imageUrl: 'https://raw.githubusercontent.com/rain-cafe/logos/main/zelda-map/social-media.png',
+    description: 'A tool for Zelda 1 to track all your discoveries!',
+    url: 'https://zelda.rains.cafe',
+    repo: 'github:rain-cafe/zelda-map',
+    status: Status.IN_DEVELOPMENT,
+  },
+  {
     type: ParcelType.Framework,
     name: 'Flarie',
     imageUrl: 'https://repository-images.githubusercontent.com/659549026/891e12dd-c7f7-41d4-a689-c68ba76d1dee',
