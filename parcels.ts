@@ -60,9 +60,17 @@ const _parcels: Parcel[] = [
   {
     type: ParcelType.Library,
     name: '@rain-cafe/fork-me',
-    description: 'A "Fork Me" component built out of spite',
+    description: 'A "Fork Me" react component built out of spite',
     repo: 'github:rain-cafe/fork-me',
     parcel: 'npm:@rain-cafe/fork-me',
+    status: Status.COMPLETED,
+  },
+  {
+    type: ParcelType.Library,
+    name: '@rain-cafe/ribbon',
+    description: 'A simple react ribbon~',
+    repo: 'github:rain-cafe/ribbon',
+    parcel: 'npm:@rain-cafe/ribbon',
     status: Status.COMPLETED,
   },
   {
