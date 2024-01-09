@@ -3,7 +3,7 @@ import { IconType } from 'react-icons';
 import { FaBitbucket, FaGithub, FaGitlab } from 'react-icons/fa';
 import { useReadOnlyCachedState } from '../../../hooks/use-cached-state';
 import { SourceFormatters } from '../../../utils/source';
-import styles from './SourceLink.module.scss';
+import * as styles from './SourceLink.module.scss';
 
 const SourceIcons: Record<string, IconType> = {
   bitbucket: FaBitbucket,

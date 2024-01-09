@@ -1,5 +1,5 @@
 import classNames from 'classnames';
-import styles from './CardImage.module.scss';
+import * as styles from './CardImage.module.scss';
 
 export type CardImageProps = {
   aspectRatio?: string;

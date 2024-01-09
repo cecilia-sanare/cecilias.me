@@ -1,7 +1,7 @@
 import { IconType, IconBaseProps } from 'react-icons';
 import { Themes } from '../../types/themes';
 import classNames from 'classnames';
-import styles from './ThemeIcon.module.scss';
+import * as styles from './ThemeIcon.module.scss';
 
 export type ThemeIconProps = {
   icon: IconType;

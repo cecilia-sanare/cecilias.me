@@ -1,4 +1,4 @@
-import styles from './Header.module.scss';
+import * as styles from './Header.module.scss';
 import image from '../../images/favicon-96.png';
 import { ReactNode } from 'react';
 import { Typography, TypographyTypes } from './common/Typography';

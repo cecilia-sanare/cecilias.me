@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import styles from './CardActions.module.scss';
+import * as styles from './CardActions.module.scss';
 
 export type CardActionsProps = {
   children: ReactNode;

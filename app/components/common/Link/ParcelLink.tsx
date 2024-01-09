@@ -3,7 +3,7 @@ import { IconType } from 'react-icons';
 import { FaNpm } from 'react-icons/fa';
 import { useReadOnlyCachedState } from '../../../hooks/use-cached-state';
 import { PARCEL_LINKS } from '../../../utils/parcel';
-import styles from './ParcelLink.module.scss';
+import * as styles from './ParcelLink.module.scss';
 import { ParcelDist } from '../../../types/parcel';
 
 const ParcelIcons: Record<string, IconType> = {

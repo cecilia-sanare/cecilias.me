@@ -1,6 +1,6 @@
 import { Header } from './Header';
 import { ParcelCard } from './parcels/ParcelCard';
-import styles from './App.module.scss';
+import * as styles from './App.module.scss';
 import { App } from '../types/app';
 import { parcelsByType } from '../../parcels';
 import { ParcelType } from '../types/parcel';

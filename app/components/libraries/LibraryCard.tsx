@@ -4,7 +4,7 @@ import { CardActions } from '../common/Card';
 import { CardStatus } from '../common/Card/CardStatus';
 import { Link, SourceLink } from '../common/Link';
 import { BsLink45Deg } from 'react-icons/bs';
-import styles from './AppCard.module.scss';
+import * as styles from './AppCard.module.scss';
 
 export type AppCardProps = {
   app: App;

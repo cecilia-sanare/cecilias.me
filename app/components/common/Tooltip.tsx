@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import styles from './Tooltip.module.scss';
+import * as styles from './Tooltip.module.scss';
 import { Themes } from '../../types/themes';
 import classNames from 'classnames';
 

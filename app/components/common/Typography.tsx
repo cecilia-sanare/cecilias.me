@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import styles from './Typography.module.scss';
+import * as styles from './Typography.module.scss';
 import classNames from 'classnames';
 
 export enum TypographyTypes {

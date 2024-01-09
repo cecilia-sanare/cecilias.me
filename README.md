@@ -13,17 +13,17 @@ A simple app for showcasing all the apps I've developed! :tada:
 
 ```sh
 # Install the node modules
-$ yarn
+$ bun
 # Start the server!
-$ yarn start
+$ bun start
 ```
 
 ### Running Tests
 
 ```sh
 # This will execute the entire test suite w/o coverage
-$ yarn test
+$ bun test
 
 # This will execute the entire test suite w/ coverage
-$ yarn test:coverage
+$ bun test:coverage
 ```

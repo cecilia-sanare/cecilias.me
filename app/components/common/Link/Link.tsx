@@ -1,4 +1,4 @@
-import styles from './Link.module.scss';
+import * as styles from './Link.module.scss';
 import { IconType } from 'react-icons';
 import classnames from 'classnames';
 

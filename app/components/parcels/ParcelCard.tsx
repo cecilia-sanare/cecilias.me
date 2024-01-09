@@ -3,7 +3,7 @@ import { CardActions } from '../common/Card';
 import { CardStatus } from '../common/Card/CardStatus';
 import { Link, SourceLink } from '../common/Link';
 import { BsLink45Deg } from 'react-icons/bs';
-import styles from './ParcelCard.module.scss';
+import * as styles from './ParcelCard.module.scss';
 import { Parcel, isImageParcel, isPackage } from '../../types/parcel';
 import classNames from 'classnames';
 import { ParcelBadges } from './ParcelBadges';

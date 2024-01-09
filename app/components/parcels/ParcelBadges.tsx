@@ -1,7 +1,7 @@
 import { Coverage, Github, Npm } from '@uiw/react-shields';
 import { useReadOnlyCachedState } from '../../hooks/use-cached-state';
 import { AppParcel, FrameworkParcel, LibraryParcel, ParcelDist, isPackage } from '../../types/parcel';
-import styles from './ParcelBadges.module.scss';
+import * as styles from './ParcelBadges.module.scss';
 import { Sources } from '../../types/source';
 
 export type ParcelBadgesProps = {
